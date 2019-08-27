@@ -45,7 +45,14 @@ func _ready():
 		print("The name is Vitor!")
 	else:
 		print("The name isn't Vitor!")
-		
+	
+	var age = 20
+	var hasLicense = false
+	
+	if(age >= 18 && hasLicense == true):
+		print("You can drive")
+	else:
+		print("You can't drive")
 	pass
 
 func _process(delta):
