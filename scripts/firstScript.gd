@@ -56,6 +56,11 @@ func _ready():
 		
 	print(240/100)
 	print(240.0/100.0)
+	
+	var a = 0
+	while(a < 10):
+		print("The value of a is: ", a)
+		a = a + 1
 	pass
 
 func _process(delta):
