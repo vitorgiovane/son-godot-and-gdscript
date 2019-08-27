@@ -38,6 +38,14 @@ func _ready():
 	enemies[1].force = 63
 	print(enemies[0].name)
 	print(enemies[1].force)
+	
+	var name = "Giovane"
+	
+	if(name == "Vitor"):
+		print("The name is Vitor!")
+	else:
+		print("The name isn't Vitor!")
+		
 	pass
 
 func _process(delta):
