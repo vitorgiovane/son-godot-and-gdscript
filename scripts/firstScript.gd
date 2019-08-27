@@ -61,10 +61,17 @@ func _ready():
 	while(a < 10):
 		print("The value of a is: ", a)
 		a = a + 1
-	pass
 	
 	showMyName()
 	showMyNationality()
+	
+	multiplyBy5(10)
+	multiplyBy5(20)
+	multiplyBy5(30)
+	
+	ageAndName(25, "Vitor")
+	
+	print(square(5))
 
 func _process(delta):
 # 	print(gameName)
@@ -75,3 +82,13 @@ func showMyName():
 
 func showMyNationality():
 	print("I am brazilian.")
+	
+func multiplyBy5(value):
+	print(value * 5)
+	
+func ageAndName(age, name):
+	print("My age is ", age)
+	print("My name is ", name)
+	
+func square(number):
+	return pow(number, 2)
