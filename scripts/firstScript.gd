@@ -53,6 +53,9 @@ func _ready():
 		print("You can drive")
 	else:
 		print("You can't drive")
+		
+	print(240/100)
+	print(240.0/100.0)
 	pass
 
 func _process(delta):
