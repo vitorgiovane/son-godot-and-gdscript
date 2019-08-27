@@ -8,6 +8,16 @@ var isWarrior = true
 var gameName
 var players = ["John Doe", "Maria Doe", "Richard Doe"]
 var animals = [["Dog", "white"], ["Cat", "black"], players]
+var enemies = [{
+	name = "Lorem",
+	age = 32,
+	force = 65
+},
+{
+	name = "Ipsum",
+	age = 23,
+	force = 72
+}]
 
 func _ready():
 	print("Hello, Godot!")
@@ -24,6 +34,10 @@ func _ready():
 	
 	print(animals)
 	print(animals[2][2])
+	
+	enemies[1].force = 63
+	print(enemies[0].name)
+	print(enemies[1].force)
 	pass
 
 func _process(delta):
