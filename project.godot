@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="son-godot-and-gdscript"
+run/main_scene="res://scenes/Node2D.tscn"
 config/icon="res://icon.png"
 
 [rendering]
