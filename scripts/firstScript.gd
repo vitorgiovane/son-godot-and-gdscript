@@ -62,7 +62,16 @@ func _ready():
 		print("The value of a is: ", a)
 		a = a + 1
 	pass
+	
+	showMyName()
+	showMyNationality()
 
 func _process(delta):
 # 	print(gameName)
 	pass
+
+func showMyName():
+	print("My name is Vitor.")
+
+func showMyNationality():
+	print("I am brazilian.")
